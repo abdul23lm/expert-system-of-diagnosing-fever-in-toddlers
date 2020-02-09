@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^beranda$ index.php?opt=01 [L]
+RewriteRule ^konsultasi$ index.php?opt=02 [L]
+RewriteRule ^authentication$ index.php?opt=03 [L]
+RewriteRule ^ubah-sandi$ index.php?opt=04 [L]
+RewriteRule ^kamus$ index.php?opt=05 [L]
+RewriteRule ^master-kamus$ index.php?opt=06 [L]
+RewriteRule ^master-identifikasi$ index.php?opt=07 [L]
+RewriteRule ^rule-yes$ index.php?opt=08 [L]
+RewriteRule ^rule-no$ index.php?opt=09 [L]
+RewriteRule ^cetak-pdf$ cetak_pdf.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+Options All -Indexes
